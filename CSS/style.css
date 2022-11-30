@@ -68,6 +68,8 @@ body{
 .texty h2{
     font-weight: bold;
     font-size: 45px;
+    max-width:546px ;
+    margin: auto;
 }
 .texty p{
     color: gray;
@@ -111,5 +113,10 @@ body{
     .texty {
         margin-bottom: 30px;
     }
+    
+}
+@media (max-width:504px) {
+    
+   
     
 }
