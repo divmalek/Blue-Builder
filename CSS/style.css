@@ -115,6 +115,9 @@ body{
     margin-top: 50px;
 
 }
+.parenty{
+    overflow: hidden;
+}
 .conty input{
     margin: 50px;
 }
