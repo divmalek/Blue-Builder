@@ -31,6 +31,7 @@ body{
     line-height: 80px; 
     color: black;
 }
+
 .buttons{
     margin-top: 50px;
 }
@@ -89,6 +90,125 @@ body{
     padding: 15px 40px;
     font-size: 23px;
 }
+.rowy{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rowy .coly{
+    width: 600px;
+    border: 1px solid #0d6efd ;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.conty{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: 50px;
+
+}
+.conty input{
+    margin: 50px;
+}
+.conty input[type="name"]{
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    height: 70px ;
+    border-radius:25px ;
+    border: none;
+    text-align: center;
+    border: solid 1px #0d6efd;
+
+}
+.conty input[type="Email"]{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    height: 70px ;
+    border-radius:25px ;
+    border: none;
+    text-align: center;
+    border: solid 1px #0d6efd;
+
+}
+.conty input[type="text-area"]{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    height: 200px ;
+    border-radius:25px ;
+    border: none;
+    text-align: center;
+    border: solid 1px #0d6efd;
+
+}
+.spany{
+    background-color: #0d6efd;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+}
+.conty input[type="submit"]{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    height: 70px ;
+    border-radius:25px ;
+    border: none;
+    text-align: center;
+    background-color: #3b8df3;
+    color: white;
+    font-weight: bold;
+    transition: 0.7s;
+}
+input[type="submit"]:hover{
+    background-color: transparent;
+    border: solid 2px black;
+    width: 200px;
+    color: black;
+    
+
+}
+.cd i{
+    color: #3b8df3;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.srv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+}
+.cd{
+    width: 600px;
+    border: 1px solid #0d6efd ;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.contacty h1{
+    font-size: 50px;
+    background-color: #0d6efd;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
 @media (max-width:535px) {
     .oho h2{
         text-align: center;
@@ -115,8 +235,25 @@ body{
     }
     
 }
-@media (max-width:504px) {
+@media (max-width:991px) {
     
-   
+    .oho .text{
+        text-align: center;
+    }
+    .oho img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width:514px) {
+    .row img{
+        width: 320px;
+    }
+}
+@media (max-width:566px) {
+    .conty{
+        width: 400px;
+    }
     
 }
