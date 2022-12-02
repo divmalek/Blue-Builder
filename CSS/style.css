@@ -134,50 +134,7 @@ body{
     border-radius: 25px;
     margin-bottom: 100px;
 }
-.parenty{
-    overflow: hidden;
-}
-.contacty h1{
-    font-size: 30px;
-    background-color: #0d6efd;
-    padding: 10px 20px;
-    border-radius: 25px;
-    display: inline-block;
-    font-weight: bold;
-    color: white;
-    letter-spacing: 2px;
-    margin-top: 40px;
-    margin-bottom: 50px;
-}
-input[type="Name"]{
-    border: 1px solid #0d6efd;
-    border-radius: 25px;
-    padding: 10px 80px;
-    text-align: center;
-}
-input[type="email"]{
-    border: 1px solid #0d6efd;
-    border-radius: 25px;
-    padding: 10px 80px;
-    text-align: center;
-}
-input[type="text"]{
-    border: 1px solid #0d6efd;
-    border-radius: 25px;
-    padding: 50px 100px;
-    text-align: center;
-}
-input[type="submit"]{
-    border-radius: 25px;
-    padding: 10px 30px;
-    text-align: center;
-    background-color: #0d6efd;
-    color: white;
-    border: solid 2px white !important;
-}
-input:hover{
-    border: solid 2px black;
-}
+
 @media (max-width:535px) {
     .oho h2{
         text-align: center;
@@ -228,4 +185,24 @@ input:hover{
 }
 @media (max-width:397px) {
     
+}
+@media (max-width:495px) {
+    .texty h2{
+        font-size: 30px;
+        max-width: 300px; 
+        text-align: center;
+    }
+    .texty p{
+        font-size: 16px;
+    }
+}
+@media (max-width:325px) {
+   .texty h2{
+    font-size: 20px;
+    text-align: center;
+
+   }
+   .texty p{
+    font-size: 14px;
+   }
 }
